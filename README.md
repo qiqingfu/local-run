@@ -51,3 +51,22 @@ npm run serve
 ```
 
 ## run 
+
+将打包后的 dist目录下的文件拷贝到 run 目录下的 `public/app` 目录中。并且将 `index.html` 移动到 `public` 的根目录下。 目录结构: 
+
+```
+run
+  - public
+    - app
+      - css
+      - js
+      - favicon.ico
+    - index.htm
+``` 
+
+在 run 根目录下运行 `node app.js`, 打印 port: 4000
+
+访问: `http://localhost:4000/app/`
+
+
+## end 
